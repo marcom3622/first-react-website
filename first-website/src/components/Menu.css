@@ -1,0 +1,30 @@
+:root {
+  --primary-color: #66fcf1;
+  --secondary-color: #45a29e;
+  --background-color: #0b0c10;
+  --medium-dark-color: #1f2833;
+  --light-gray-color: #c5c6c7;
+}
+
+.list-unstyled {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  padding-left: 150px;
+  font-weight: 1000;
+  list-style-type: none;
+}
+
+.list-unstyled li .bi::before {
+  transform: scale(2);
+  padding-right: 30px;
+}
+
+.list-unstyled li:hover .bi,
+li:hover {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+li {
+  padding-top: 20px;
+}
