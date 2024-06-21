@@ -1,4 +1,15 @@
+.container {
+  display: flex;
+}
+
 .home-sticky-menu-container {
+  flex: 1;
   position: sticky;
   top: 0;
+}
+
+.home-scrollable-menu-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
 }
