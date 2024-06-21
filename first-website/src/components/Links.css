@@ -1,0 +1,28 @@
+:root {
+  --primary-color: #66fcf1;
+  --secondary-color: #45a29e;
+  --background-color: #0b0c10;
+  --medium-dark-color: #1f2833;
+  --light-gray-color: #c5c6c7;
+}
+
+.social-media-icons-container {
+  display: flex;
+  margin-left: 125px;
+  margin-top: 60px;
+}
+
+.social-media-icons-container .fa {
+  font-size: 2em;
+  padding-right: 20px;
+  transition: transform 0.3s ease;
+  color: var(--primary-color);
+}
+
+.social-media-icons-container .fa:hover {
+  transform: scale(1.2);
+}
+
+.social-media-icons-container a {
+  text-decoration: none; /* Remove underline from links */
+}
