@@ -35,3 +35,8 @@ li:hover {
 li {
   padding-top: 20px;
 }
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}

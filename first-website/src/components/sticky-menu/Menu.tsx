@@ -8,8 +8,10 @@ function Menu() {
       <ul className='list-unstyled'>
         {menuItems.map((item) => (
           <li>
-            <i className='bi bi-arrow-right'></i>
-            {item}
+            <a href={`#${item.toLowerCase()}`}>
+              <i className='bi bi-arrow-right'></i>
+              {item}
+            </a>
           </li>
         ))}
       </ul>

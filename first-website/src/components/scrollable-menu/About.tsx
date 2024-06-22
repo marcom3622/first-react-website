@@ -4,7 +4,7 @@ import "./About.css";
 function About() {
   return (
     <>
-      <div className='about-container'>
+      <div className='about-container' id='about'>
         <h2>About</h2>
         <p className='description'>
           Organised and dependable{" "}

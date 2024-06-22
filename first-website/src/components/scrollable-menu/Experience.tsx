@@ -103,7 +103,7 @@ function Experience() {
 
   return (
     <>
-      <div className='experience-container'>
+      <div className='experience-container' id='experience'>
         <h2 className='experience-heading'>Experience</h2>
         {titles.map((title, index) => (
           <ExperienceCard

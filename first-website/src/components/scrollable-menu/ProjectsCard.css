@@ -5,6 +5,8 @@
 
 .image-container {
   flex: 1;
+  padding-left: 5px;
+  margin-top: 12px;
 }
 
 .project-container {
@@ -27,4 +29,11 @@
   font-size: 14px;
   margin-right: 5px;
   margin-top: -10px;
+}
+
+.project-card-container:hover {
+  border-style: solid;
+  border-radius: 10px;
+  opacity: 80%;
+  background-color: rgb(25, 25, 25);
 }
