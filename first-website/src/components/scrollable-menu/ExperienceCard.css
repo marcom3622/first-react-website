@@ -1,0 +1,35 @@
+.experience-card-container {
+  margin-top: 60px;
+  display: inline-flex;
+}
+
+.date-container {
+  flex: 1;
+}
+
+.description-container {
+  flex: 2;
+  margin-top: -8px;
+}
+
+.props-date {
+  font-size: 14px;
+  opacity: 60%;
+}
+
+.props-description {
+  font-size: 15px;
+  opacity: 60%;
+  margin-bottom: 20px;
+}
+
+.props-skills {
+  border-style: solid;
+  border-radius: 25px;
+  text-align: center;
+  display: inline-block;
+  padding: 6px;
+  font-size: 14px;
+  margin-right: 5px;
+  margin-top: -10px;
+}

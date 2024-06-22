@@ -1,0 +1,6 @@
+.flexbox-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+  margin-right: 100px;
+}

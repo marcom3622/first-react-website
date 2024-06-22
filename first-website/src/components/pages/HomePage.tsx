@@ -2,6 +2,7 @@ import React from "react";
 import StickyMenu from "../sticky-menu/StickyMenu";
 import "./HomePage.css";
 import ScrollableMenu from "../scrollable-menu/ScrollableMenu";
+import Footer from "../footer/Footer";
 
 function Home() {
   return (
@@ -13,6 +14,9 @@ function Home() {
         <div className='home-scrollable-menu-container'>
           <ScrollableMenu />
         </div>
+      </div>
+      <div className='footer'>
+        <Footer />
       </div>
     </>
   );

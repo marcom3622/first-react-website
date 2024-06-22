@@ -1,0 +1,4 @@
+.sticky-menu-container {
+  position: sticky;
+  top: 60px;
+}

@@ -1,0 +1,30 @@
+.project-card-container {
+  margin-top: 60px;
+  display: inline-flex;
+}
+
+.image-container {
+  flex: 1;
+}
+
+.project-container {
+  flex: 2;
+  margin-top: -8px;
+}
+
+.project-description {
+  font-size: 15px;
+  opacity: 60%;
+  margin-bottom: 20px;
+}
+
+.project-skills {
+  border-style: solid;
+  border-radius: 25px;
+  text-align: center;
+  display: inline-block;
+  padding: 6px;
+  font-size: 14px;
+  margin-right: 5px;
+  margin-top: -10px;
+}
