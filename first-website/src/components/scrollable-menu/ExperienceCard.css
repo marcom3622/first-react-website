@@ -41,3 +41,33 @@
   opacity: 80%;
   background-color: rgb(25, 25, 25);
 }
+
+.date-container-mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 578px) {
+  .experience-card-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .experience-description {
+    position: static;
+  }
+
+  .date-container {
+    display: none;
+  }
+
+  .date-container-mobile {
+    display: block;
+  }
+
+  .experience-card-container:hover {
+    border-style: none; /* Remove border */
+    border-radius: 0; /* Reset border radius */
+    opacity: 100%; /* Reset opacity */
+    background-color: initial; /* Reset background color */
+  }
+}

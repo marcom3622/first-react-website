@@ -67,3 +67,9 @@
     background-color: initial; /* Reset background color */
   }
 }
+
+@media only screen and (max-width: 578px) {
+  .image-container-mobile {
+    text-align: center;
+  }
+}

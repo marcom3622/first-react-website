@@ -13,6 +13,7 @@ function ProjectsCard(props: ProjectsCardData) {
 
   function getImageSize(width: number): number {
     if (width < 1440 && width > 768) return (width / 1440) * 150;
+    if (width < 579) return 250;
     return 150;
   }
 
