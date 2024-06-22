@@ -26,3 +26,11 @@
 .social-media-icons-container a {
   text-decoration: none; /* Remove underline from links */
 }
+
+@media only screen and (max-width: 578px) {
+  .social-media-icons-container {
+    display: flex;
+    justify-content: center;
+    margin-left: 0px;
+  }
+}

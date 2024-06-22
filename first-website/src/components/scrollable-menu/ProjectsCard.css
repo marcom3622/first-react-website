@@ -37,3 +37,33 @@
   opacity: 80%;
   background-color: rgb(25, 25, 25);
 }
+
+.image-container-mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 769px) {
+  .project-card-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project-description {
+    position: static;
+  }
+
+  .image-container {
+    display: none;
+  }
+
+  .image-container-mobile {
+    display: block;
+  }
+
+  .project-card-container:hover {
+    border-style: none; /* Remove border */
+    border-radius: 0; /* Reset border radius */
+    opacity: 100%; /* Reset opacity */
+    background-color: initial; /* Reset background color */
+  }
+}
